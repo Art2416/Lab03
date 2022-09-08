@@ -1,4 +1,5 @@
 package edu.eci.cvds.tdd.registry;
 
-public class Gender {
+public enum Gender {
+    MALE, FEMALE, UNIDENTIFIED
 }
