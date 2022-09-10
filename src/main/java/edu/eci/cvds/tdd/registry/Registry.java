@@ -3,10 +3,6 @@ package edu.eci.cvds.tdd.registry;
 import java.util.TreeMap;
 
 public class Registry {
-    /**
-     * TreeMap with registered users.
-     */
-
     TreeMap<Integer, Person> register = new TreeMap<Integer,Person>();
 
     public RegisterResult registerVoter(Person p) {
